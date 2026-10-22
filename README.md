@@ -22,14 +22,23 @@ Included matrix sizes are 3, 9, 27, 81, 243, 729 and 2187. Analysis entries are 
 
 ## Installation
 
-MLX execution requires **Apple Silicon and macOS**. The locked environment uses Python **3.13.15**. Install [uv](https://docs.astral.sh/uv/), then run from the repository root:
+The locked environment uses Python **3.13.15** and selects the MLX backend by platform:
+
+| Platform | Backend selected by `uv sync --frozen` |
+| --- | --- |
+| macOS 14+ on Apple Silicon | `mlx` with `mlx-metal` |
+| Linux x86_64 or aarch64 with NVIDIA GPU | `mlx[cuda12]` with `mlx-cuda-12` |
+
+Linux requires glibc ≥2.35, an NVIDIA GPU with compute capability ≥7.5, driver ≥550.54.14 and CUDA toolkit ≥12.0, following the [MLX 0.32.4 installation requirements](https://github.com/ml-explore/mlx/blob/v0.32.4/docs/src/install.rst#cuda). Package selection uses OS/architecture markers; it does not detect a GPU or install the system driver/toolkit. Linux without a compatible NVIDIA GPU, Intel Macs and native Windows are outside this configuration.
+
+Install [uv](https://docs.astral.sh/uv/), then run from the repository root:
 
 ```sh
 uv sync --frozen
 uv run pytest
 ```
 
-The environment includes MLX, NumPy, SciPy, Matplotlib, Jupyter and experiment/test dependencies. No PyTorch installation is needed.
+The environment includes MLX, NumPy, SciPy, Matplotlib, Jupyter and experiment/test dependencies. No PyTorch installation is needed. The same `mx.gpu` API selects Metal on macOS or CUDA on Linux. Published timings and memory measurements were collected on Apple Silicon; CUDA execution has not been validated on NVIDIA hardware.
 
 ## Usage
 
