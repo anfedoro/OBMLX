@@ -1,0 +1,721 @@
+n,continuity,alignment,segments,method,mean_first_tested_bits_1pct,mean_first_tested_components_1pct,mean_reached_fraction
+81,continuous,ternary,2,OB,798.28125,20.46875,1.0
+81,continuous,ternary,2,Fourier,2332.859375,67.99479166666667,1.0
+81,continuous,ternary,2,DCT-II,635.78125,16.302083333333332,1.0
+81,continuous,ternary,2,Ternary Haar,1577.421875,42.869791666666664,1.0
+81,continuous,ternary,2,PL estimated,102.796875,1.9947916666666667,1.0
+81,continuous,ternary,2,PL oracle,102.796875,1.9947916666666667,1.0
+81,continuous,ternary,3,OB,903.703125,23.171875,1.0
+81,continuous,ternary,3,Fourier,2479.671875,74.18229166666667,1.0
+81,continuous,ternary,3,DCT-II,696.515625,17.859375,1.0
+81,continuous,ternary,3,Ternary Haar,1902.25,52.864583333333336,1.0
+81,continuous,ternary,3,PL estimated,152.5625,3.2708333333333335,1.0
+81,continuous,ternary,3,PL oracle,142.0,3.0,1.0
+81,continuous,ternary,4,OB,1875.75,48.171875,1.0
+81,continuous,ternary,4,Fourier,2384.984375,69.10416666666667,1.0
+81,continuous,ternary,4,DCT-II,1219.15625,31.260416666666668,1.0
+81,continuous,ternary,4,Ternary Haar,1830.75,50.046875,1.0
+81,continuous,ternary,4,PL estimated,207.37348790322582,4.676243279569892,0.9895833333333334
+81,continuous,ternary,4,PL oracle,178.15625,3.9270833333333335,1.0
+81,continuous,ternary,8,OB,1999.890625,52.036458333333336,1.0
+81,continuous,ternary,8,Fourier,2391.296875,69.11458333333333,1.0
+81,continuous,ternary,8,DCT-II,1331.078125,34.130208333333336,1.0
+81,continuous,ternary,8,Ternary Haar,2141.46875,60.588541666666664,1.0
+81,continuous,ternary,8,PL estimated,491.8633879781421,11.970856102003644,0.8645833333333334
+81,continuous,ternary,8,PL oracle,337.0,8.0,1.0
+81,continuous,ternary,16,OB,2538.3125,73.33854166666667,1.0
+81,continuous,ternary,16,Fourier,2497.609375,73.05208333333333,1.0
+81,continuous,ternary,16,DCT-II,1907.140625,48.901041666666664,1.0
+81,continuous,ternary,16,Ternary Haar,2338.765625,66.02604166666667,1.0
+81,continuous,ternary,16,PL estimated,666.3333333333333,16.444444444444443,0.3125
+81,continuous,ternary,16,PL oracle,649.0,16.0,1.0
+81,continuous,arbitrary,2,OB,1613.515625,42.432291666666664,1.0
+81,continuous,arbitrary,2,Fourier,2345.953125,68.40625,1.0
+81,continuous,arbitrary,2,DCT-II,878.5,22.677083333333332,1.0
+81,continuous,arbitrary,2,Ternary Haar,1522.078125,41.375,1.0
+81,continuous,arbitrary,2,PL estimated,102.390625,1.984375,1.0
+81,continuous,arbitrary,2,PL oracle,102.390625,1.984375,1.0
+81,continuous,arbitrary,3,OB,2180.4375,57.953125,1.0
+81,continuous,arbitrary,3,Fourier,2472.484375,72.78645833333333,1.0
+81,continuous,arbitrary,3,DCT-II,1274.8125,32.6875,1.0
+81,continuous,arbitrary,3,Ternary Haar,1734.0625,47.567708333333336,1.0
+81,continuous,arbitrary,3,PL estimated,138.953125,2.921875,1.0
+81,continuous,arbitrary,3,PL oracle,141.796875,2.9947916666666665,1.0
+81,continuous,arbitrary,4,OB,2348.734375,63.177083333333336,1.0
+81,continuous,arbitrary,4,Fourier,2417.046875,70.22916666666667,1.0
+81,continuous,arbitrary,4,DCT-II,1490.3125,38.364583333333336,1.0
+81,continuous,arbitrary,4,Ternary Haar,1784.90625,48.265625,1.0
+81,continuous,arbitrary,4,PL estimated,200.000512295082,4.487192622950819,0.984375
+81,continuous,arbitrary,4,PL oracle,178.765625,3.9427083333333335,1.0
+81,continuous,arbitrary,8,OB,2455.109375,68.47916666666667,1.0
+81,continuous,arbitrary,8,Fourier,2481.46875,72.5625,1.0
+81,continuous,arbitrary,8,DCT-II,1964.84375,51.213541666666664,1.0
+81,continuous,arbitrary,8,Ternary Haar,2079.25,57.630208333333336,1.0
+81,continuous,arbitrary,8,PL estimated,453.2517394054396,10.980813830908708,0.75
+81,continuous,arbitrary,8,PL oracle,337.0,8.0,1.0
+81,continuous,arbitrary,16,OB,2545.40625,73.671875,1.0
+81,continuous,arbitrary,16,Fourier,2531.078125,74.36458333333333,1.0
+81,continuous,arbitrary,16,DCT-II,2184.265625,58.354166666666664,1.0
+81,continuous,arbitrary,16,Ternary Haar,2338.109375,65.47916666666667,1.0
+81,continuous,arbitrary,16,PL estimated,806.5407407407407,20.039506172839506,0.4479166666666667
+81,continuous,arbitrary,16,PL oracle,649.0,16.0,1.0
+81,continuous,shifted,2,OB,1418.0625,36.890625,1.0
+81,continuous,shifted,2,Fourier,2331.0,68.25,1.0
+81,continuous,shifted,2,DCT-II,687.984375,17.640625,1.0
+81,continuous,shifted,2,Ternary Haar,1612.96875,43.78125,1.0
+81,continuous,shifted,2,PL estimated,102.390625,1.984375,1.0
+81,continuous,shifted,2,PL oracle,102.390625,1.984375,1.0
+81,continuous,shifted,3,OB,1727.125,44.739583333333336,1.0
+81,continuous,shifted,3,Fourier,2475.359375,73.54166666666667,1.0
+81,continuous,shifted,3,DCT-II,832.609375,21.348958333333332,1.0
+81,continuous,shifted,3,Ternary Haar,1912.109375,53.041666666666664,1.0
+81,continuous,shifted,3,PL estimated,151.953125,3.2552083333333335,1.0
+81,continuous,shifted,3,PL oracle,141.59375,2.9895833333333335,1.0
+81,continuous,shifted,4,OB,2155.328125,57.536458333333336,1.0
+81,continuous,shifted,4,Fourier,2388.28125,69.71875,1.0
+81,continuous,shifted,4,DCT-II,1258.046875,32.333333333333336,1.0
+81,continuous,shifted,4,Ternary Haar,1863.984375,50.671875,1.0
+81,continuous,shifted,4,PL estimated,203.02132936507937,4.564649470899471,0.9947916666666666
+81,continuous,shifted,4,PL oracle,178.15625,3.9270833333333335,1.0
+81,continuous,shifted,8,OB,2332.234375,63.208333333333336,1.0
+81,continuous,shifted,8,Fourier,2428.015625,70.51041666666667,1.0
+81,continuous,shifted,8,DCT-II,1406.03125,36.052083333333336,1.0
+81,continuous,shifted,8,Ternary Haar,2159.1875,60.588541666666664,1.0
+81,continuous,shifted,8,PL estimated,511.60605326876515,12.477078288942694,0.859375
+81,continuous,shifted,8,PL oracle,337.0,8.0,1.0
+81,continuous,shifted,16,OB,2515.53125,72.07291666666667,1.0
+81,continuous,shifted,16,Fourier,2507.203125,73.828125,1.0
+81,continuous,shifted,16,DCT-II,1958.671875,50.828125,1.0
+81,continuous,shifted,16,Ternary Haar,2344.859375,66.18229166666667,1.0
+81,continuous,shifted,16,PL estimated,895.6060606060606,22.32323232323232,0.359375
+81,continuous,shifted,16,PL oracle,649.0,16.0,1.0
+81,discontinuous,ternary,2,OB,785.6875,20.145833333333332,1.0
+81,discontinuous,ternary,2,Fourier,2511.015625,74.38020833333333,1.0
+81,discontinuous,ternary,2,DCT-II,2367.84375,65.484375,1.0
+81,discontinuous,ternary,2,Ternary Haar,1708.03125,45.234375,1.0
+81,discontinuous,ternary,2,PL estimated,135.0,2.0,1.0
+81,discontinuous,ternary,2,PL oracle,135.0,2.0,1.0
+81,discontinuous,ternary,3,OB,933.5625,23.9375,1.0
+81,discontinuous,ternary,3,Fourier,2569.859375,78.46354166666667,1.0
+81,discontinuous,ternary,3,DCT-II,2376.15625,64.86458333333333,1.0
+81,discontinuous,ternary,3,Ternary Haar,2076.171875,55.885416666666664,1.0
+81,discontinuous,ternary,3,PL estimated,210.4375,3.0625,1.0
+81,discontinuous,ternary,3,PL oracle,206.0,3.0,1.0
+81,discontinuous,ternary,4,OB,1939.828125,50.875,1.0
+81,discontinuous,ternary,4,Fourier,2585.5,79.84895833333333,1.0
+81,discontinuous,ternary,4,DCT-II,2567.453125,77.11458333333333,1.0
+81,discontinuous,ternary,4,Ternary Haar,2105.15625,57.234375,1.0
+81,discontinuous,ternary,4,PL estimated,328.7708333333333,4.729166666666667,1.0
+81,discontinuous,ternary,4,PL oracle,277.0,4.0,1.0
+81,discontinuous,ternary,8,OB,2107.9375,57.911458333333336,1.0
+81,discontinuous,ternary,8,Fourier,2590.0,80.64583333333333,1.0
+81,discontinuous,ternary,8,DCT-II,2575.0,77.98958333333333,1.0
+81,discontinuous,ternary,8,Ternary Haar,2463.40625,70.96354166666667,1.0
+81,discontinuous,ternary,8,PL estimated,839.0833333333334,11.916666666666666,1.0
+81,discontinuous,ternary,8,PL oracle,561.0,8.0,1.0
+81,discontinuous,ternary,16,OB,2591.5,80.91145833333333,1.0
+81,discontinuous,ternary,16,Fourier,2592.0,81.0,1.0
+81,discontinuous,ternary,16,DCT-II,2592.0,81.0,1.0
+81,discontinuous,ternary,16,Ternary Haar,2563.453125,76.40625,1.0
+81,discontinuous,ternary,16,PL estimated,1908.2719576719576,26.975661375661375,0.96875
+81,discontinuous,ternary,16,PL oracle,1129.0,16.0,1.0
+81,discontinuous,arbitrary,2,OB,2280.5,67.18229166666667,1.0
+81,discontinuous,arbitrary,2,Fourier,2552.9375,77.65104166666667,1.0
+81,discontinuous,arbitrary,2,DCT-II,2435.625,73.734375,1.0
+81,discontinuous,arbitrary,2,Ternary Haar,1654.015625,43.697916666666664,1.0
+81,discontinuous,arbitrary,2,PL estimated,135.0,2.0,1.0
+81,discontinuous,arbitrary,2,PL oracle,135.0,2.0,1.0
+81,discontinuous,arbitrary,3,OB,2513.125,75.64583333333333,1.0
+81,discontinuous,arbitrary,3,Fourier,2584.453125,80.125,1.0
+81,discontinuous,arbitrary,3,DCT-II,2564.3125,77.94270833333333,1.0
+81,discontinuous,arbitrary,3,Ternary Haar,1972.8125,52.932291666666664,1.0
+81,discontinuous,arbitrary,3,PL estimated,211.546875,3.078125,1.0
+81,discontinuous,arbitrary,3,PL oracle,206.0,3.0,1.0
+81,discontinuous,arbitrary,4,OB,2572.859375,78.99479166666667,1.0
+81,discontinuous,arbitrary,4,Fourier,2589.5,80.55729166666667,1.0
+81,discontinuous,arbitrary,4,DCT-II,2581.453125,79.59375,1.0
+81,discontinuous,arbitrary,4,Ternary Haar,2075.125,56.161458333333336,1.0
+81,discontinuous,arbitrary,4,PL estimated,311.7604166666667,4.489583333333333,1.0
+81,discontinuous,arbitrary,4,PL oracle,276.6302083333333,3.9947916666666665,1.0
+81,discontinuous,arbitrary,8,OB,2592.0,81.0,1.0
+81,discontinuous,arbitrary,8,Fourier,2591.0,80.82291666666667,1.0
+81,discontinuous,arbitrary,8,DCT-II,2591.5,80.91145833333333,1.0
+81,discontinuous,arbitrary,8,Ternary Haar,2452.234375,69.69270833333333,1.0
+81,discontinuous,arbitrary,8,PL estimated,794.8506962806276,11.29367177860039,0.9739583333333334
+81,discontinuous,arbitrary,8,PL oracle,561.0,8.0,1.0
+81,discontinuous,arbitrary,16,OB,2592.0,81.0,1.0
+81,discontinuous,arbitrary,16,Fourier,2592.0,81.0,1.0
+81,discontinuous,arbitrary,16,DCT-II,2592.0,81.0,1.0
+81,discontinuous,arbitrary,16,Ternary Haar,2576.0,78.16666666666667,1.0
+81,discontinuous,arbitrary,16,PL estimated,1776.4140263201732,25.118507412960184,0.8541666666666666
+81,discontinuous,arbitrary,16,PL oracle,1129.0,16.0,1.0
+81,discontinuous,shifted,2,OB,2396.578125,72.203125,1.0
+81,discontinuous,shifted,2,Fourier,2547.09375,77.046875,1.0
+81,discontinuous,shifted,2,DCT-II,2432.46875,73.72916666666667,1.0
+81,discontinuous,shifted,2,Ternary Haar,1748.25,46.265625,1.0
+81,discontinuous,shifted,2,PL estimated,135.0,2.0,1.0
+81,discontinuous,shifted,2,PL oracle,135.0,2.0,1.0
+81,discontinuous,shifted,3,OB,2471.34375,73.96875,1.0
+81,discontinuous,shifted,3,Fourier,2580.953125,79.50520833333333,1.0
+81,discontinuous,shifted,3,DCT-II,2556.21875,77.43229166666667,1.0
+81,discontinuous,shifted,3,Ternary Haar,2128.484375,57.151041666666664,1.0
+81,discontinuous,shifted,3,PL estimated,210.06770833333334,3.0572916666666665,1.0
+81,discontinuous,shifted,3,PL oracle,206.0,3.0,1.0
+81,discontinuous,shifted,4,OB,2546.625,77.640625,1.0
+81,discontinuous,shifted,4,Fourier,2588.5,80.38020833333333,1.0
+81,discontinuous,shifted,4,DCT-II,2586.5,80.02604166666667,1.0
+81,discontinuous,shifted,4,Ternary Haar,2145.34375,58.567708333333336,1.0
+81,discontinuous,shifted,4,PL estimated,327.2916666666667,4.708333333333333,1.0
+81,discontinuous,shifted,4,PL oracle,277.0,4.0,1.0
+81,discontinuous,shifted,8,OB,2581.953125,79.68229166666667,1.0
+81,discontinuous,shifted,8,Fourier,2590.5,80.734375,1.0
+81,discontinuous,shifted,8,DCT-II,2590.0,80.64583333333333,1.0
+81,discontinuous,shifted,8,Ternary Haar,2502.046875,72.484375,1.0
+81,discontinuous,shifted,8,PL estimated,839.0833333333334,11.916666666666666,1.0
+81,discontinuous,shifted,8,PL oracle,561.0,8.0,1.0
+81,discontinuous,shifted,16,OB,2591.5,80.91145833333333,1.0
+81,discontinuous,shifted,16,Fourier,2592.0,81.0,1.0
+81,discontinuous,shifted,16,DCT-II,2592.0,81.0,1.0
+81,discontinuous,shifted,16,Ternary Haar,2579.0,78.69791666666667,1.0
+81,discontinuous,shifted,16,PL estimated,1946.095345769738,27.50838515168645,0.953125
+81,discontinuous,shifted,16,PL oracle,1129.0,16.0,1.0
+243,continuous,ternary,2,OB,842.9166666666666,21.072916666666668,1.0
+243,continuous,ternary,2,Fourier,6122.166666666667,186.21354166666666,1.0
+243,continuous,ternary,2,DCT-II,606.25,15.15625,1.0
+243,continuous,ternary,2,Ternary Haar,2529.0833333333335,65.50520833333333,1.0
+243,continuous,ternary,2,PL estimated,103.58333333333333,1.9895833333333333,1.0
+243,continuous,ternary,2,PL oracle,103.58333333333333,1.9895833333333333,1.0
+243,continuous,ternary,3,OB,1093.75,27.34375,1.0
+243,continuous,ternary,3,Fourier,7025.208333333333,216.13020833333334,1.0
+243,continuous,ternary,3,DCT-II,573.3333333333334,14.333333333333334,1.0
+243,continuous,ternary,3,Ternary Haar,3267.5,88.015625,1.0
+243,continuous,ternary,3,PL estimated,160.66666666666666,3.4166666666666665,1.0
+243,continuous,ternary,3,PL oracle,143.375,2.984375,1.0
+243,continuous,ternary,4,OB,2498.125,62.453125,1.0
+243,continuous,ternary,4,Fourier,6232.958333333333,189.48958333333334,1.0
+243,continuous,ternary,4,DCT-II,1227.2916666666667,30.682291666666668,1.0
+243,continuous,ternary,4,Ternary Haar,3109.7083333333335,82.55208333333333,1.0
+243,continuous,ternary,4,PL estimated,241.29166666666666,5.432291666666667,1.0
+243,continuous,ternary,4,PL oracle,180.66666666666666,3.9166666666666665,1.0
+243,continuous,ternary,8,OB,2768.125,69.203125,1.0
+243,continuous,ternary,8,Fourier,6452.083333333333,195.47395833333334,1.0
+243,continuous,ternary,8,DCT-II,1405.0,35.125,1.0
+243,continuous,ternary,8,Ternary Haar,4757.75,132.359375,1.0
+243,continuous,ternary,8,PL estimated,532.3333333333334,12.708333333333334,1.0
+243,continuous,ternary,8,PL oracle,344.0,8.0,1.0
+243,continuous,ternary,16,OB,5368.625,144.59375,1.0
+243,continuous,ternary,16,Fourier,6783.666666666667,203.51041666666666,1.0
+243,continuous,ternary,16,DCT-II,3117.4583333333335,78.44270833333333,1.0
+243,continuous,ternary,16,Ternary Haar,5420.75,154.25,1.0
+243,continuous,ternary,16,PL estimated,1053.8765432098764,25.74691358024691,0.9166666666666666
+243,continuous,ternary,16,PL oracle,664.0,16.0,1.0
+243,continuous,arbitrary,2,OB,2674.7083333333335,70.41145833333333,1.0
+243,continuous,arbitrary,2,Fourier,6123.541666666667,185.99479166666666,1.0
+243,continuous,arbitrary,2,DCT-II,1010.0,25.25,1.0
+243,continuous,arbitrary,2,Ternary Haar,2344.9583333333335,60.395833333333336,1.0
+243,continuous,arbitrary,2,PL estimated,103.58333333333333,1.9895833333333333,1.0
+243,continuous,arbitrary,2,PL oracle,103.58333333333333,1.9895833333333333,1.0
+243,continuous,arbitrary,3,OB,4035.9166666666665,107.47916666666667,1.0
+243,continuous,arbitrary,3,Fourier,7028.958333333333,214.95833333333334,1.0
+243,continuous,arbitrary,3,DCT-II,1604.375,40.109375,1.0
+243,continuous,arbitrary,3,Ternary Haar,2770.5,72.046875,1.0
+243,continuous,arbitrary,3,PL estimated,148.16666666666666,3.1041666666666665,1.0
+243,continuous,arbitrary,3,PL oracle,143.58333333333334,2.9895833333333335,1.0
+243,continuous,arbitrary,4,OB,4188.5,111.546875,1.0
+243,continuous,arbitrary,4,Fourier,6298.625,190.625,1.0
+243,continuous,arbitrary,4,DCT-II,1653.75,41.34375,1.0
+243,continuous,arbitrary,4,Ternary Haar,2951.7916666666665,77.33854166666667,1.0
+243,continuous,arbitrary,4,PL estimated,227.75,5.09375,1.0
+243,continuous,arbitrary,4,PL oracle,180.04166666666666,3.9010416666666665,1.0
+243,continuous,arbitrary,8,OB,6219.75,180.046875,1.0
+243,continuous,arbitrary,8,Fourier,6649.125,199.640625,1.0
+243,continuous,arbitrary,8,DCT-II,3155.3333333333335,79.89583333333333,1.0
+243,continuous,arbitrary,8,Ternary Haar,4190.0,113.609375,1.0
+243,continuous,arbitrary,8,PL estimated,510.7759562841529,12.169398907103826,0.9270833333333334
+243,continuous,arbitrary,8,PL oracle,344.0,8.0,1.0
+243,continuous,arbitrary,16,OB,7052.0,211.484375,1.0
+243,continuous,arbitrary,16,Fourier,7015.833333333333,210.83333333333334,1.0
+243,continuous,arbitrary,16,DCT-II,4599.708333333333,121.06770833333333,1.0
+243,continuous,arbitrary,16,Ternary Haar,5093.0,141.5,1.0
+243,continuous,arbitrary,16,PL estimated,1023.3650793650794,24.984126984126984,0.7604166666666666
+243,continuous,arbitrary,16,PL oracle,664.0,16.0,1.0
+243,continuous,shifted,2,OB,1093.75,27.34375,1.0
+243,continuous,shifted,2,Fourier,6118.0,186.109375,1.0
+243,continuous,shifted,2,DCT-II,612.2916666666666,15.307291666666666,1.0
+243,continuous,shifted,2,Ternary Haar,2541.5833333333335,65.81770833333333,1.0
+243,continuous,shifted,2,PL estimated,103.79166666666667,1.9947916666666667,1.0
+243,continuous,shifted,2,PL oracle,103.79166666666667,1.9947916666666667,1.0
+243,continuous,shifted,3,OB,1427.2916666666667,35.682291666666664,1.0
+243,continuous,shifted,3,Fourier,7035.625,216.390625,1.0
+243,continuous,shifted,3,DCT-II,639.5833333333334,15.989583333333334,1.0
+243,continuous,shifted,3,Ternary Haar,3249.5833333333335,87.56770833333333,1.0
+243,continuous,shifted,3,PL estimated,160.66666666666666,3.4166666666666665,1.0
+243,continuous,shifted,3,PL oracle,143.79166666666666,2.9947916666666665,1.0
+243,continuous,shifted,4,OB,3423.75,89.390625,1.0
+243,continuous,shifted,4,Fourier,6242.666666666667,189.47916666666666,1.0
+243,continuous,shifted,4,DCT-II,1271.25,31.78125,1.0
+243,continuous,shifted,4,Ternary Haar,3116.5,82.46875,1.0
+243,continuous,shifted,4,PL estimated,233.55026455026453,5.238756613756614,0.9947916666666666
+243,continuous,shifted,4,PL oracle,180.66666666666666,3.9166666666666665,1.0
+243,continuous,shifted,8,OB,4346.208333333333,116.75520833333333,1.0
+243,continuous,shifted,8,Fourier,6444.958333333333,194.53645833333334,1.0
+243,continuous,shifted,8,DCT-II,1626.875,40.671875,1.0
+243,continuous,shifted,8,Ternary Haar,4743.375,132.0,1.0
+243,continuous,shifted,8,PL estimated,538.1666666666666,12.854166666666666,1.0
+243,continuous,shifted,8,PL oracle,344.0,8.0,1.0
+243,continuous,shifted,16,OB,6388.25,184.765625,1.0
+243,continuous,shifted,16,Fourier,6804.208333333333,203.77083333333334,1.0
+243,continuous,shifted,16,DCT-II,3128.0833333333335,78.70833333333333,1.0
+243,continuous,shifted,16,Ternary Haar,5423.208333333333,153.55208333333334,1.0
+243,continuous,shifted,16,PL estimated,1079.3333333333333,26.383333333333336,0.9427083333333334
+243,continuous,shifted,16,PL oracle,664.0,16.0,1.0
+243,discontinuous,ternary,2,OB,1027.9166666666667,25.697916666666668,1.0
+243,discontinuous,ternary,2,Fourier,7122.625,213.25,1.0
+243,discontinuous,ternary,2,DCT-II,6888.333333333333,210.17708333333334,1.0
+243,discontinuous,ternary,2,Ternary Haar,2754.5,69.875,1.0
+243,discontinuous,ternary,2,PL estimated,136.0,2.0,1.0
+243,discontinuous,ternary,2,PL oracle,136.0,2.0,1.0
+243,discontinuous,ternary,3,OB,1221.25,30.53125,1.0
+243,discontinuous,ternary,3,Fourier,7657.583333333333,237.25520833333334,1.0
+243,discontinuous,ternary,3,DCT-II,6768.25,200.59375,1.0
+243,discontinuous,ternary,3,Ternary Haar,3488.9166666666665,88.99479166666667,1.0
+243,discontinuous,ternary,3,PL estimated,213.625,3.078125,1.0
+243,discontinuous,ternary,3,PL oracle,208.0,3.0,1.0
+243,discontinuous,ternary,4,OB,2674.5833333333335,66.86458333333333,1.0
+243,discontinuous,ternary,4,Fourier,7755.833333333333,241.98958333333334,1.0
+243,discontinuous,ternary,4,DCT-II,7654.0,237.671875,1.0
+243,discontinuous,ternary,4,Ternary Haar,3945.1666666666665,100.40104166666667,1.0
+243,discontinuous,ternary,4,PL estimated,303.625,4.328125,1.0
+243,discontinuous,ternary,4,PL oracle,280.0,4.0,1.0
+243,discontinuous,ternary,8,OB,3097.7083333333335,77.44270833333333,1.0
+243,discontinuous,ternary,8,Fourier,7762.166666666667,242.40104166666666,1.0
+243,discontinuous,ternary,8,DCT-II,7725.583333333333,240.47395833333334,1.0
+243,discontinuous,ternary,8,Ternary Haar,5999.583333333333,168.97395833333334,1.0
+243,discontinuous,ternary,8,PL estimated,808.0,11.333333333333334,1.0
+243,discontinuous,ternary,8,PL oracle,568.0,8.0,1.0
+243,discontinuous,ternary,16,OB,5967.833333333333,165.39583333333334,1.0
+243,discontinuous,ternary,16,Fourier,7776.0,243.0,1.0
+243,discontinuous,ternary,16,DCT-II,7776.0,243.0,1.0
+243,discontinuous,ternary,16,Ternary Haar,7038.25,208.609375,1.0
+243,discontinuous,ternary,16,PL estimated,1960.0,27.333333333333332,1.0
+243,discontinuous,ternary,16,PL oracle,1144.0,16.0,1.0
+243,discontinuous,arbitrary,2,OB,6284.958333333333,189.27083333333334,1.0
+243,discontinuous,arbitrary,2,Fourier,7511.041666666667,232.07291666666666,1.0
+243,discontinuous,arbitrary,2,DCT-II,7004.0,215.09375,1.0
+243,discontinuous,arbitrary,2,Ternary Haar,2493.1666666666665,63.088541666666664,1.0
+243,discontinuous,arbitrary,2,PL estimated,136.0,2.0,1.0
+243,discontinuous,arbitrary,2,PL oracle,136.0,2.0,1.0
+243,discontinuous,arbitrary,3,OB,7447.666666666667,229.72916666666666,1.0
+243,discontinuous,arbitrary,3,Fourier,7745.833333333333,241.73958333333334,1.0
+243,discontinuous,arbitrary,3,DCT-II,7632.458333333333,236.88020833333334,1.0
+243,discontinuous,arbitrary,3,Ternary Haar,3194.9166666666665,80.88541666666667,1.0
+243,discontinuous,arbitrary,3,PL estimated,212.875,3.0677083333333335,1.0
+243,discontinuous,arbitrary,3,PL oracle,208.0,3.0,1.0
+243,discontinuous,arbitrary,4,OB,7528.5,233.015625,1.0
+243,discontinuous,arbitrary,4,Fourier,7765.916666666667,242.49479166666666,1.0
+243,discontinuous,arbitrary,4,DCT-II,7711.708333333333,240.38020833333334,1.0
+243,discontinuous,arbitrary,4,Ternary Haar,3745.4166666666665,94.90104166666667,1.0
+243,discontinuous,arbitrary,4,PL estimated,306.625,4.369791666666667,1.0
+243,discontinuous,arbitrary,4,PL oracle,280.0,4.0,1.0
+243,discontinuous,arbitrary,8,OB,7776.0,243.0,1.0
+243,discontinuous,arbitrary,8,Fourier,7776.0,243.0,1.0
+243,discontinuous,arbitrary,8,DCT-II,7776.0,243.0,1.0
+243,discontinuous,arbitrary,8,Ternary Haar,5348.416666666667,141.55729166666666,1.0
+243,discontinuous,arbitrary,8,PL estimated,763.0,10.708333333333334,1.0
+243,discontinuous,arbitrary,8,PL oracle,568.0,8.0,1.0
+243,discontinuous,arbitrary,16,OB,7776.0,243.0,1.0
+243,discontinuous,arbitrary,16,Fourier,7776.0,243.0,1.0
+243,discontinuous,arbitrary,16,DCT-II,7776.0,243.0,1.0
+243,discontinuous,arbitrary,16,Ternary Haar,6885.833333333333,201.25520833333334,1.0
+243,discontinuous,arbitrary,16,PL estimated,1907.7533177205307,26.607684968340706,0.9791666666666666
+243,discontinuous,arbitrary,16,PL oracle,1144.0,16.0,1.0
+243,discontinuous,shifted,2,OB,6657.25,202.375,1.0
+243,discontinuous,shifted,2,Fourier,7520.916666666667,232.57291666666666,1.0
+243,discontinuous,shifted,2,DCT-II,7028.541666666667,216.21354166666666,1.0
+243,discontinuous,shifted,2,Ternary Haar,2841.7916666666665,72.05729166666667,1.0
+243,discontinuous,shifted,2,PL estimated,136.0,2.0,1.0
+243,discontinuous,shifted,2,PL oracle,136.0,2.0,1.0
+243,discontinuous,shifted,3,OB,6957.041666666667,211.13541666666666,1.0
+243,discontinuous,shifted,3,Fourier,7742.0,241.390625,1.0
+243,discontinuous,shifted,3,DCT-II,7648.791666666667,237.54166666666666,1.0
+243,discontinuous,shifted,3,Ternary Haar,3605.5416666666665,92.41666666666667,1.0
+243,discontinuous,shifted,3,PL estimated,212.875,3.0677083333333335,1.0
+243,discontinuous,shifted,3,PL oracle,207.625,2.9947916666666665,1.0
+243,discontinuous,shifted,4,OB,7285.5,224.15625,1.0
+243,discontinuous,shifted,4,Fourier,7755.833333333333,241.98958333333334,1.0
+243,discontinuous,shifted,4,DCT-II,7701.625,239.875,1.0
+243,discontinuous,shifted,4,Ternary Haar,4030.7916666666665,102.54166666666667,1.0
+243,discontinuous,shifted,4,PL estimated,303.625,4.328125,1.0
+243,discontinuous,shifted,4,PL oracle,280.0,4.0,1.0
+243,discontinuous,shifted,8,OB,7265.916666666667,222.40104166666666,1.0
+243,discontinuous,shifted,8,Fourier,7776.0,243.0,1.0
+243,discontinuous,shifted,8,DCT-II,7776.0,243.0,1.0
+243,discontinuous,shifted,8,Ternary Haar,6129.75,172.734375,1.0
+243,discontinuous,shifted,8,PL estimated,808.0,11.333333333333334,1.0
+243,discontinuous,shifted,8,PL oracle,568.0,8.0,1.0
+243,discontinuous,shifted,16,OB,7765.916666666667,242.49479166666666,1.0
+243,discontinuous,shifted,16,Fourier,7776.0,243.0,1.0
+243,discontinuous,shifted,16,DCT-II,7776.0,243.0,1.0
+243,discontinuous,shifted,16,Ternary Haar,7204.083333333333,215.28645833333334,1.0
+243,discontinuous,shifted,16,PL estimated,1963.047619047619,27.375661375661377,0.9947916666666666
+243,discontinuous,shifted,16,PL oracle,1144.0,16.0,1.0
+729,continuous,ternary,2,OB,940.625,22.395833333333332,1.0
+729,continuous,ternary,2,Fourier,14953.125,411.171875,1.0
+729,continuous,ternary,2,DCT-II,703.71875,16.755208333333332,1.0
+729,continuous,ternary,2,Ternary Haar,3079.125,73.3125,1.0
+729,continuous,ternary,2,PL estimated,105.5625,1.9895833333333333,1.0
+729,continuous,ternary,2,PL oracle,105.5625,1.9895833333333333,1.0
+729,continuous,ternary,3,OB,1275.09375,30.359375,1.0
+729,continuous,ternary,3,Fourier,18158.5625,507.3802083333333,1.0
+729,continuous,ternary,3,DCT-II,715.3125,17.03125,1.0
+729,continuous,ternary,3,Ternary Haar,4001.375,95.27083333333333,1.0
+729,continuous,ternary,3,PL estimated,168.5625,3.4895833333333335,1.0
+729,continuous,ternary,3,PL oracle,147.125,2.9791666666666665,1.0
+729,continuous,ternary,4,OB,3053.53125,72.703125,1.0
+729,continuous,ternary,4,Fourier,16102.71875,434.9270833333333,1.0
+729,continuous,ternary,4,DCT-II,1392.34375,33.151041666666664,1.0
+729,continuous,ternary,4,Ternary Haar,4761.09375,113.359375,1.0
+729,continuous,ternary,4,PL estimated,292.15625,6.432291666666667,1.0
+729,continuous,ternary,4,PL oracle,187.375,3.9375,1.0
+729,continuous,ternary,8,OB,3429.125,81.64583333333333,1.0
+729,continuous,ternary,8,Fourier,16507.25,453.5989583333333,1.0
+729,continuous,ternary,8,DCT-II,1544.15625,36.765625,1.0
+729,continuous,ternary,8,Ternary Haar,8104.0,194.76041666666666,1.0
+729,continuous,ternary,8,PL estimated,578.5,13.25,1.0
+729,continuous,ternary,8,PL oracle,358.0,8.0,1.0
+729,continuous,ternary,16,OB,7821.625,186.22916666666666,1.0
+729,continuous,ternary,16,Fourier,17273.0,464.5989583333333,1.0
+729,continuous,ternary,16,DCT-II,3420.15625,81.43229166666667,1.0
+729,continuous,ternary,16,Ternary Haar,10286.96875,249.44791666666666,1.0
+729,continuous,ternary,16,PL estimated,1079.0,25.166666666666668,1.0
+729,continuous,ternary,16,PL oracle,694.0,16.0,1.0
+729,continuous,arbitrary,2,OB,3387.0,81.546875,1.0
+729,continuous,arbitrary,2,Fourier,15158.96875,416.0729166666667,1.0
+729,continuous,arbitrary,2,DCT-II,1347.9375,32.09375,1.0
+729,continuous,arbitrary,2,Ternary Haar,2828.4375,67.34375,1.0
+729,continuous,arbitrary,2,PL estimated,105.125,1.9791666666666667,1.0
+729,continuous,arbitrary,2,PL oracle,105.125,1.9791666666666667,1.0
+729,continuous,arbitrary,3,OB,5939.71875,141.421875,1.0
+729,continuous,arbitrary,3,Fourier,18081.0,500.109375,1.0
+729,continuous,arbitrary,3,DCT-II,2203.90625,52.473958333333336,1.0
+729,continuous,arbitrary,3,Ternary Haar,3572.1875,85.05208333333333,1.0
+729,continuous,arbitrary,3,PL estimated,158.71875,3.2552083333333335,1.0
+729,continuous,arbitrary,3,PL oracle,146.90625,2.9739583333333335,1.0
+729,continuous,arbitrary,4,OB,7220.0625,171.90625,1.0
+729,continuous,arbitrary,4,Fourier,16279.15625,431.8958333333333,1.0
+729,continuous,arbitrary,4,DCT-II,2569.21875,61.171875,1.0
+729,continuous,arbitrary,4,Ternary Haar,4171.5625,99.32291666666667,1.0
+729,continuous,arbitrary,4,PL estimated,273.78125,5.994791666666667,1.0
+729,continuous,arbitrary,4,PL oracle,187.8125,3.9479166666666665,1.0
+729,continuous,arbitrary,8,OB,11682.15625,282.6666666666667,1.0
+729,continuous,arbitrary,8,Fourier,16827.25,450.3697916666667,1.0
+729,continuous,arbitrary,8,DCT-II,4953.15625,117.93229166666667,1.0
+729,continuous,arbitrary,8,Ternary Haar,6832.0,162.66666666666666,1.0
+729,continuous,arbitrary,8,PL estimated,563.625,12.895833333333334,1.0
+729,continuous,arbitrary,8,PL oracle,358.0,8.0,1.0
+729,continuous,arbitrary,16,OB,15087.46875,374.59375,1.0
+729,continuous,arbitrary,16,Fourier,17910.96875,474.3645833333333,1.0
+729,continuous,arbitrary,16,DCT-II,7193.59375,171.27604166666666,1.0
+729,continuous,arbitrary,16,Ternary Haar,9349.21875,225.3125,1.0
+729,continuous,arbitrary,16,PL estimated,1109.6944444444446,25.897486772486772,0.9895833333333334
+729,continuous,arbitrary,16,PL oracle,694.0,16.0,1.0
+729,continuous,shifted,2,OB,939.53125,22.369791666666668,1.0
+729,continuous,shifted,2,Fourier,14953.125,411.171875,1.0
+729,continuous,shifted,2,DCT-II,708.96875,16.880208333333332,1.0
+729,continuous,shifted,2,Ternary Haar,3073.65625,73.18229166666667,1.0
+729,continuous,shifted,2,PL estimated,105.5625,1.9895833333333333,1.0
+729,continuous,shifted,2,PL oracle,105.5625,1.9895833333333333,1.0
+729,continuous,shifted,3,OB,1263.9375,30.09375,1.0
+729,continuous,shifted,3,Fourier,18176.625,506.90625,1.0
+729,continuous,shifted,3,DCT-II,730.1875,17.385416666666668,1.0
+729,continuous,shifted,3,Ternary Haar,4001.15625,95.265625,1.0
+729,continuous,shifted,3,PL estimated,168.5625,3.4895833333333335,1.0
+729,continuous,shifted,3,PL oracle,147.125,2.9791666666666665,1.0
+729,continuous,shifted,4,OB,3195.5,76.08333333333333,1.0
+729,continuous,shifted,4,Fourier,16126.125,435.484375,1.0
+729,continuous,shifted,4,DCT-II,1437.625,34.229166666666664,1.0
+729,continuous,shifted,4,Ternary Haar,4767.0,113.5,1.0
+729,continuous,shifted,4,PL estimated,292.15625,6.432291666666667,1.0
+729,continuous,shifted,4,PL oracle,187.375,3.9375,1.0
+729,continuous,shifted,8,OB,4093.90625,97.47395833333333,1.0
+729,continuous,shifted,8,Fourier,16466.90625,451.734375,1.0
+729,continuous,shifted,8,DCT-II,1572.8125,37.447916666666664,1.0
+729,continuous,shifted,8,Ternary Haar,8113.3125,194.078125,1.0
+729,continuous,shifted,8,PL estimated,578.5,13.25,1.0
+729,continuous,shifted,8,PL oracle,358.0,8.0,1.0
+729,continuous,shifted,16,OB,10021.03125,239.5,1.0
+729,continuous,shifted,16,Fourier,17257.5,462.421875,1.0
+729,continuous,shifted,16,DCT-II,3546.59375,84.44270833333333,1.0
+729,continuous,shifted,16,Ternary Haar,10282.59375,249.34375,1.0
+729,continuous,shifted,16,PL estimated,1096.5,25.583333333333332,1.0
+729,continuous,shifted,16,PL oracle,694.0,16.0,1.0
+729,discontinuous,ternary,2,OB,1163.3125,27.697916666666668,1.0
+729,discontinuous,ternary,2,Fourier,20450.6875,564.6666666666666,1.0
+729,discontinuous,ternary,2,DCT-II,18916.59375,502.828125,1.0
+729,discontinuous,ternary,2,Ternary Haar,3515.09375,83.69270833333333,1.0
+729,discontinuous,ternary,2,PL estimated,138.0,2.0,1.0
+729,discontinuous,ternary,2,PL oracle,138.0,2.0,1.0
+729,discontinuous,ternary,3,OB,1593.59375,37.942708333333336,1.0
+729,discontinuous,ternary,3,Fourier,21883.9375,624.1041666666666,1.0
+729,discontinuous,ternary,3,DCT-II,18495.09375,478.328125,1.0
+729,discontinuous,ternary,3,Ternary Haar,5142.59375,122.44270833333333,1.0
+729,discontinuous,ternary,3,PL estimated,220.09375,3.109375,1.0
+729,discontinuous,ternary,3,PL oracle,212.0,3.0,1.0
+729,discontinuous,ternary,4,OB,3545.9375,84.42708333333333,1.0
+729,discontinuous,ternary,4,Fourier,22372.5,642.96875,1.0
+729,discontinuous,ternary,4,DCT-II,21248.8125,582.765625,1.0
+729,discontinuous,ternary,4,Ternary Haar,5771.9375,137.42708333333334,1.0
+729,discontinuous,ternary,4,PL estimated,346.125,4.8125,1.0
+729,discontinuous,ternary,4,PL oracle,286.0,4.0,1.0
+729,discontinuous,ternary,8,OB,4251.84375,101.234375,1.0
+729,discontinuous,ternary,8,Fourier,22815.6875,678.8333333333334,1.0
+729,discontinuous,ternary,8,DCT-II,22083.875,622.5364583333334,1.0
+729,discontinuous,ternary,8,Ternary Haar,9817.5,233.75,1.0
+729,discontinuous,ternary,8,PL estimated,850.25,11.625,1.0
+729,discontinuous,ternary,8,PL oracle,582.0,8.0,1.0
+729,discontinuous,ternary,16,OB,9815.75,233.70833333333334,1.0
+729,discontinuous,ternary,16,Fourier,23309.0,726.7395833333334,1.0
+729,discontinuous,ternary,16,DCT-II,23185.5,712.046875,1.0
+729,discontinuous,ternary,16,Ternary Haar,14086.1875,335.3854166666667,1.0
+729,discontinuous,ternary,16,PL estimated,2018.8333333333333,27.416666666666668,1.0
+729,discontinuous,ternary,16,PL oracle,1174.0,16.0,1.0
+729,discontinuous,arbitrary,2,OB,18059.75,533.0520833333334,1.0
+729,discontinuous,arbitrary,2,Fourier,21322.5625,595.3697916666666,1.0
+729,discontinuous,arbitrary,2,DCT-II,20104.28125,576.3072916666666,1.0
+729,discontinuous,arbitrary,2,Ternary Haar,3374.875,80.35416666666667,1.0
+729,discontinuous,arbitrary,2,PL estimated,138.0,2.0,1.0
+729,discontinuous,arbitrary,2,PL oracle,138.0,2.0,1.0
+729,discontinuous,arbitrary,3,OB,20917.90625,621.8958333333334,1.0
+729,discontinuous,arbitrary,3,Fourier,22421.0,654.0677083333334,1.0
+729,discontinuous,arbitrary,3,DCT-II,21686.25,615.78125,1.0
+729,discontinuous,arbitrary,3,Ternary Haar,4568.375,108.77083333333333,1.0
+729,discontinuous,arbitrary,3,PL estimated,219.32291666666666,3.0989583333333335,1.0
+729,discontinuous,arbitrary,3,PL oracle,212.0,3.0,1.0
+729,discontinuous,arbitrary,4,OB,22178.6875,663.6666666666666,1.0
+729,discontinuous,arbitrary,4,Fourier,22761.25,675.7291666666666,1.0
+729,discontinuous,arbitrary,4,DCT-II,22120.5625,639.6822916666666,1.0
+729,discontinuous,arbitrary,4,Ternary Haar,5454.96875,129.88020833333334,1.0
+729,discontinuous,arbitrary,4,PL estimated,332.25,4.625,1.0
+729,discontinuous,arbitrary,4,PL oracle,286.0,4.0,1.0
+729,discontinuous,arbitrary,8,OB,23163.625,717.8541666666666,1.0
+729,discontinuous,arbitrary,8,Fourier,23271.0,722.21875,1.0
+729,discontinuous,arbitrary,8,DCT-II,23261.5,721.0885416666666,1.0
+729,discontinuous,arbitrary,8,Ternary Haar,9018.40625,214.72395833333334,1.0
+729,discontinuous,arbitrary,8,PL estimated,807.0833333333334,11.041666666666666,1.0
+729,discontinuous,arbitrary,8,PL oracle,582.0,8.0,1.0
+729,discontinuous,arbitrary,16,OB,23328.0,729.0,1.0
+729,discontinuous,arbitrary,16,Fourier,23328.0,729.0,1.0
+729,discontinuous,arbitrary,16,DCT-II,23328.0,729.0,1.0
+729,discontinuous,arbitrary,16,Ternary Haar,13125.4375,312.5104166666667,1.0
+729,discontinuous,arbitrary,16,PL estimated,1895.5,25.75,1.0
+729,discontinuous,arbitrary,16,PL oracle,1174.0,16.0,1.0
+729,discontinuous,shifted,2,OB,19011.1875,569.265625,1.0
+729,discontinuous,shifted,2,Fourier,21301.25,593.9583333333334,1.0
+729,discontinuous,shifted,2,DCT-II,20072.625,571.9375,1.0
+729,discontinuous,shifted,2,Ternary Haar,3682.875,87.6875,1.0
+729,discontinuous,shifted,2,PL estimated,138.0,2.0,1.0
+729,discontinuous,shifted,2,PL oracle,138.0,2.0,1.0
+729,discontinuous,shifted,3,OB,20335.3125,598.984375,1.0
+729,discontinuous,shifted,3,Fourier,22190.4375,635.921875,1.0
+729,discontinuous,shifted,3,DCT-II,21637.875,610.109375,1.0
+729,discontinuous,shifted,3,Ternary Haar,5499.8125,130.94791666666666,1.0
+729,discontinuous,shifted,3,PL estimated,220.09375,3.109375,1.0
+729,discontinuous,shifted,3,PL oracle,212.0,3.0,1.0
+729,discontinuous,shifted,4,OB,20582.75,609.3958333333334,1.0
+729,discontinuous,shifted,4,Fourier,22747.375,674.4947916666666,1.0
+729,discontinuous,shifted,4,DCT-II,22071.9375,635.8125,1.0
+729,discontinuous,shifted,4,Ternary Haar,6014.3125,143.19791666666666,1.0
+729,discontinuous,shifted,4,PL estimated,346.125,4.8125,1.0
+729,discontinuous,shifted,4,PL oracle,286.0,4.0,1.0
+729,discontinuous,shifted,8,OB,20967.6875,634.8333333333334,1.0
+729,discontinuous,shifted,8,Fourier,23166.5,709.7864583333334,1.0
+729,discontinuous,shifted,8,DCT-II,23017.3125,693.578125,1.0
+729,discontinuous,shifted,8,Ternary Haar,10211.25,243.125,1.0
+729,discontinuous,shifted,8,PL estimated,850.25,11.625,1.0
+729,discontinuous,shifted,8,PL oracle,582.0,8.0,1.0
+729,discontinuous,shifted,16,OB,22079.3125,671.2447916666666,1.0
+729,discontinuous,shifted,16,Fourier,23318.5,727.8697916666666,1.0
+729,discontinuous,shifted,16,DCT-II,23318.5,727.8697916666666,1.0
+729,discontinuous,shifted,16,Ternary Haar,14850.9375,353.59375,1.0
+729,discontinuous,shifted,16,PL estimated,2025.0,27.5,1.0
+729,discontinuous,shifted,16,PL oracle,1174.0,16.0,1.0
+2187,continuous,ternary,2,OB,1015.6666666666666,23.083333333333332,1.0
+2187,continuous,ternary,2,Fourier,32987.104166666664,867.7552083333334,1.0
+2187,continuous,ternary,2,DCT-II,676.5,15.375,1.0
+2187,continuous,ternary,2,Ternary Haar,3381.125,76.84375,1.0
+2187,continuous,ternary,2,PL estimated,106.625,1.96875,1.0
+2187,continuous,ternary,2,PL oracle,106.625,1.96875,1.0
+2187,continuous,ternary,3,OB,1305.3333333333333,29.666666666666668,1.0
+2187,continuous,ternary,3,Fourier,45539.125,1252.4375,1.0
+2187,continuous,ternary,3,DCT-II,667.7916666666666,15.177083333333334,1.0
+2187,continuous,ternary,3,Ternary Haar,4707.770833333333,106.99479166666667,1.0
+2187,continuous,ternary,3,PL estimated,176.52083333333334,3.5572916666666665,1.0
+2187,continuous,ternary,3,PL oracle,151.3125,2.984375,1.0
+2187,continuous,ternary,4,OB,3312.375,75.28125,1.0
+2187,continuous,ternary,4,Fourier,32072.3125,825.21875,1.0
+2187,continuous,ternary,4,DCT-II,1586.2916666666667,36.052083333333336,1.0
+2187,continuous,ternary,4,Ternary Haar,5000.875,113.65625,1.0
+2187,continuous,ternary,4,PL estimated,311.7291666666667,6.630208333333333,1.0
+2187,continuous,ternary,4,PL oracle,191.41666666666666,3.8958333333333335,1.0
+2187,continuous,ternary,8,OB,3771.1666666666665,85.70833333333333,1.0
+2187,continuous,ternary,8,Fourier,36167.854166666664,949.3645833333334,1.0
+2187,continuous,ternary,8,DCT-II,1745.3333333333333,39.666666666666664,1.0
+2187,continuous,ternary,8,Ternary Haar,9601.854166666666,218.22395833333334,1.0
+2187,continuous,ternary,8,PL estimated,650.6666666666666,14.333333333333334,1.0
+2187,continuous,ternary,8,PL oracle,372.0,8.0,1.0
+2187,continuous,ternary,16,OB,8825.4375,200.578125,1.0
+2187,continuous,ternary,16,Fourier,39422.708333333336,1057.5104166666667,1.0
+2187,continuous,ternary,16,DCT-II,3586.2291666666665,81.50520833333333,1.0
+2187,continuous,ternary,16,Ternary Haar,14519.083333333334,329.9791666666667,1.0
+2187,continuous,ternary,16,PL estimated,1248.3333333333333,27.916666666666668,1.0
+2187,continuous,ternary,16,PL oracle,724.0,16.0,1.0
+2187,continuous,arbitrary,2,OB,4177.25,94.9375,1.0
+2187,continuous,arbitrary,2,Fourier,32959.6875,857.8125,1.0
+2187,continuous,arbitrary,2,DCT-II,1688.0416666666667,38.364583333333336,1.0
+2187,continuous,arbitrary,2,Ternary Haar,3195.9583333333335,72.63541666666667,1.0
+2187,continuous,arbitrary,2,PL estimated,106.39583333333333,1.9635416666666667,1.0
+2187,continuous,arbitrary,2,PL oracle,106.39583333333333,1.9635416666666667,1.0
+2187,continuous,arbitrary,3,OB,7417.666666666667,168.58333333333334,1.0
+2187,continuous,arbitrary,3,Fourier,44607.083333333336,1225.0416666666667,1.0
+2187,continuous,arbitrary,3,DCT-II,2633.5833333333335,59.854166666666664,1.0
+2187,continuous,arbitrary,3,Ternary Haar,4010.1875,91.140625,1.0
+2187,continuous,arbitrary,3,PL estimated,169.41666666666666,3.3958333333333335,1.0
+2187,continuous,arbitrary,3,PL oracle,151.3125,2.984375,1.0
+2187,continuous,arbitrary,4,OB,8298.9375,191.71875,1.0
+2187,continuous,arbitrary,4,Fourier,33271.333333333336,858.6822916666666,1.0
+2187,continuous,arbitrary,4,DCT-II,3081.0416666666665,73.13020833333333,1.0
+2187,continuous,arbitrary,4,Ternary Haar,4773.541666666667,108.48958333333333,1.0
+2187,continuous,arbitrary,4,PL estimated,295.0,6.25,1.0
+2187,continuous,arbitrary,4,PL oracle,189.125,3.84375,1.0
+2187,continuous,arbitrary,8,OB,15412.145833333334,350.2760416666667,1.0
+2187,continuous,arbitrary,8,Fourier,37380.9375,973.828125,1.0
+2187,continuous,arbitrary,8,DCT-II,5724.354166666667,130.09895833333334,1.0
+2187,continuous,arbitrary,8,Ternary Haar,8229.833333333334,187.04166666666666,1.0
+2187,continuous,arbitrary,8,PL estimated,625.0,13.75,1.0
+2187,continuous,arbitrary,8,PL oracle,372.0,8.0,1.0
+2187,continuous,arbitrary,16,OB,23524.895833333332,540.8697916666666,1.0
+2187,continuous,arbitrary,16,Fourier,40420.083333333336,1058.4322916666667,1.0
+2187,continuous,arbitrary,16,DCT-II,9148.5625,207.921875,1.0
+2187,continuous,arbitrary,16,Ternary Haar,12584.458333333334,286.0104166666667,1.0
+2187,continuous,arbitrary,16,PL estimated,1270.3333333333333,28.416666666666668,1.0
+2187,continuous,arbitrary,16,PL oracle,724.0,16.0,1.0
+2187,continuous,shifted,2,OB,1019.7916666666666,23.177083333333332,1.0
+2187,continuous,shifted,2,Fourier,32987.104166666664,867.7552083333334,1.0
+2187,continuous,shifted,2,DCT-II,667.7916666666666,15.177083333333334,1.0
+2187,continuous,shifted,2,Ternary Haar,3382.5,76.875,1.0
+2187,continuous,shifted,2,PL estimated,106.625,1.96875,1.0
+2187,continuous,shifted,2,PL oracle,106.625,1.96875,1.0
+2187,continuous,shifted,3,OB,1300.2916666666667,29.552083333333332,1.0
+2187,continuous,shifted,3,Fourier,45539.125,1252.4375,1.0
+2187,continuous,shifted,3,DCT-II,669.625,15.21875,1.0
+2187,continuous,shifted,3,Ternary Haar,4707.770833333333,106.99479166666667,1.0
+2187,continuous,shifted,3,PL estimated,176.75,3.5625,1.0
+2187,continuous,shifted,3,PL oracle,151.3125,2.984375,1.0
+2187,continuous,shifted,4,OB,3322.9166666666665,75.52083333333333,1.0
+2187,continuous,shifted,4,Fourier,32180.020833333332,827.6666666666666,1.0
+2187,continuous,shifted,4,DCT-II,1602.3333333333333,36.416666666666664,1.0
+2187,continuous,shifted,4,Ternary Haar,4993.541666666667,113.48958333333333,1.0
+2187,continuous,shifted,4,PL estimated,311.9583333333333,6.635416666666667,1.0
+2187,continuous,shifted,4,PL oracle,191.41666666666666,3.8958333333333335,1.0
+2187,continuous,shifted,8,OB,3784.0,86.0,1.0
+2187,continuous,shifted,8,Fourier,36134.625,948.609375,1.0
+2187,continuous,shifted,8,DCT-II,1741.2083333333333,39.572916666666664,1.0
+2187,continuous,shifted,8,Ternary Haar,9528.75,216.5625,1.0
+2187,continuous,shifted,8,PL estimated,648.8333333333334,14.291666666666666,1.0
+2187,continuous,shifted,8,PL oracle,372.0,8.0,1.0
+2187,continuous,shifted,16,OB,9168.729166666666,208.38020833333334,1.0
+2187,continuous,shifted,16,Fourier,39522.625,1059.78125,1.0
+2187,continuous,shifted,16,DCT-II,3670.7916666666665,83.42708333333333,1.0
+2187,continuous,shifted,16,Ternary Haar,14346.0625,326.046875,1.0
+2187,continuous,shifted,16,PL estimated,1248.3333333333333,27.916666666666668,1.0
+2187,continuous,shifted,16,PL oracle,724.0,16.0,1.0
+2187,discontinuous,ternary,2,OB,1410.2916666666667,32.052083333333336,1.0
+2187,discontinuous,ternary,2,Fourier,57911.854166666664,1574.0208333333333,1.0
+2187,discontinuous,ternary,2,DCT-II,47062.145833333336,1246.6666666666667,1.0
+2187,discontinuous,ternary,2,Ternary Haar,4338.583333333333,98.60416666666667,1.0
+2187,discontinuous,ternary,2,PL estimated,140.0,2.0,1.0
+2187,discontinuous,ternary,2,PL oracle,140.0,2.0,1.0
+2187,discontinuous,ternary,3,OB,1527.625,34.71875,1.0
+2187,discontinuous,ternary,3,Fourier,61048.270833333336,1657.7291666666667,1.0
+2187,discontinuous,ternary,3,DCT-II,50504.375,1300.046875,1.0
+2187,discontinuous,ternary,3,Ternary Haar,4958.9375,112.703125,1.0
+2187,discontinuous,ternary,3,PL estimated,220.75,3.0625,1.0
+2187,discontinuous,ternary,3,PL oracle,216.0,3.0,1.0
+2187,discontinuous,ternary,4,OB,4037.2291666666665,91.75520833333333,1.0
+2187,discontinuous,ternary,4,Fourier,64574.958333333336,1818.6510416666667,1.0
+2187,discontinuous,ternary,4,DCT-II,60931.166666666664,1655.0677083333333,1.0
+2187,discontinuous,ternary,4,Ternary Haar,6160.458333333333,140.01041666666666,1.0
+2187,discontinuous,ternary,4,PL estimated,344.25,4.6875,1.0
+2187,discontinuous,ternary,4,PL oracle,292.0,4.0,1.0
+2187,discontinuous,ternary,8,OB,4939.6875,112.265625,1.0
+2187,discontinuous,ternary,8,Fourier,67148.64583333333,1988.9791666666667,1.0
+2187,discontinuous,ternary,8,DCT-II,63757.75,1765.90625,1.0
+2187,discontinuous,ternary,8,Ternary Haar,10954.166666666666,248.95833333333334,1.0
+2187,discontinuous,ternary,8,PL estimated,893.6666666666666,11.916666666666666,1.0
+2187,discontinuous,ternary,8,PL oracle,596.0,8.0,1.0
+2187,discontinuous,ternary,16,OB,12419.0,282.25,1.0
+2187,discontinuous,ternary,16,Fourier,69856.79166666667,2177.8958333333335,1.0
+2187,discontinuous,ternary,16,DCT-II,69602.375,2159.6875,1.0
+2187,discontinuous,ternary,16,Ternary Haar,18817.104166666668,427.6614583333333,1.0
+2187,discontinuous,ternary,16,PL estimated,2078.0,27.5,1.0
+2187,discontinuous,ternary,16,PL oracle,1204.0,16.0,1.0
+2187,discontinuous,arbitrary,2,OB,49186.854166666664,1428.5364583333333,1.0
+2187,discontinuous,arbitrary,2,Fourier,59686.4375,1657.84375,1.0
+2187,discontinuous,arbitrary,2,DCT-II,50421.083333333336,1403.7760416666667,1.0
+2187,discontinuous,arbitrary,2,Ternary Haar,4432.541666666667,100.73958333333333,1.0
+2187,discontinuous,arbitrary,2,PL estimated,140.0,2.0,1.0
+2187,discontinuous,arbitrary,2,PL oracle,140.0,2.0,1.0
+2187,discontinuous,arbitrary,3,OB,61171.25,1806.53125,1.0
+2187,discontinuous,arbitrary,3,Fourier,62870.770833333336,1783.0260416666667,1.0
+2187,discontinuous,arbitrary,3,DCT-II,59847.5625,1667.71875,1.0
+2187,discontinuous,arbitrary,3,Ternary Haar,4999.729166666667,113.63020833333333,1.0
+2187,discontinuous,arbitrary,3,PL estimated,220.35416666666666,3.0572916666666665,1.0
+2187,discontinuous,arbitrary,3,PL oracle,216.0,3.0,1.0
+2187,discontinuous,arbitrary,4,OB,64850.104166666664,1936.7395833333333,1.0
+2187,discontinuous,arbitrary,4,Fourier,65575.4375,1891.09375,1.0
+2187,discontinuous,arbitrary,4,DCT-II,64063.604166666664,1816.3489583333333,1.0
+2187,discontinuous,arbitrary,4,Ternary Haar,6196.666666666667,140.83333333333334,1.0
+2187,discontinuous,arbitrary,4,PL estimated,335.5416666666667,4.572916666666667,1.0
+2187,discontinuous,arbitrary,4,PL oracle,291.6041666666667,3.9947916666666665,1.0
+2187,discontinuous,arbitrary,8,OB,68856.02083333333,2120.9791666666665,1.0
+2187,discontinuous,arbitrary,8,Fourier,69157.14583333333,2127.8229166666665,1.0
+2187,discontinuous,arbitrary,8,DCT-II,68393.89583333333,2073.1979166666665,1.0
+2187,discontinuous,arbitrary,8,Ternary Haar,10339.770833333334,234.99479166666666,1.0
+2187,discontinuous,arbitrary,8,PL estimated,852.5,11.375,1.0
+2187,discontinuous,arbitrary,8,PL oracle,596.0,8.0,1.0
+2187,discontinuous,arbitrary,16,OB,69984.0,2187.0,1.0
+2187,discontinuous,arbitrary,16,Fourier,69984.0,2187.0,1.0
+2187,discontinuous,arbitrary,16,DCT-II,69984.0,2187.0,1.0
+2187,discontinuous,arbitrary,16,Ternary Haar,18356.020833333332,417.1822916666667,1.0
+2187,discontinuous,arbitrary,16,PL estimated,1989.3333333333333,26.333333333333332,1.0
+2187,discontinuous,arbitrary,16,PL oracle,1204.0,16.0,1.0
+2187,discontinuous,shifted,2,OB,56608.229166666664,1677.9739583333333,1.0
+2187,discontinuous,shifted,2,Fourier,58953.479166666664,1616.3333333333333,1.0
+2187,discontinuous,shifted,2,DCT-II,50292.145833333336,1391.5260416666667,1.0
+2187,discontinuous,shifted,2,Ternary Haar,4521.6875,102.765625,1.0
+2187,discontinuous,shifted,2,PL estimated,140.0,2.0,1.0
+2187,discontinuous,shifted,2,PL oracle,140.0,2.0,1.0
+2187,discontinuous,shifted,3,OB,57788.895833333336,1636.4635416666667,1.0
+2187,discontinuous,shifted,3,Fourier,62467.208333333336,1739.6822916666667,1.0
+2187,discontinuous,shifted,3,DCT-II,59181.4375,1602.875,1.0
+2187,discontinuous,shifted,3,Ternary Haar,5459.666666666667,124.08333333333333,1.0
+2187,discontinuous,shifted,3,PL estimated,220.75,3.0625,1.0
+2187,discontinuous,shifted,3,PL oracle,216.0,3.0,1.0
+2187,discontinuous,shifted,4,OB,60753.395833333336,1772.1822916666667,1.0
+2187,discontinuous,shifted,4,Fourier,65967.0,1909.3125,1.0
+2187,discontinuous,shifted,4,DCT-II,64143.9375,1821.28125,1.0
+2187,discontinuous,shifted,4,Ternary Haar,6714.8125,152.609375,1.0
+2187,discontinuous,shifted,4,PL estimated,344.25,4.6875,1.0
+2187,discontinuous,shifted,4,PL oracle,292.0,4.0,1.0
+2187,discontinuous,shifted,8,OB,63598.75,1911.40625,1.0
+2187,discontinuous,shifted,8,Fourier,68775.52083333333,2100.5104166666665,1.0
+2187,discontinuous,shifted,8,DCT-II,67185.41666666667,1986.7083333333333,1.0
+2187,discontinuous,shifted,8,Ternary Haar,11778.25,267.6875,1.0
+2187,discontinuous,shifted,8,PL estimated,893.6666666666666,11.916666666666666,1.0
+2187,discontinuous,shifted,8,PL oracle,596.0,8.0,1.0
+2187,discontinuous,shifted,16,OB,64408.708333333336,1954.6666666666667,1.0
+2187,discontinuous,shifted,16,Fourier,69920.39583333333,2182.4479166666665,1.0
+2187,discontinuous,shifted,16,DCT-II,69920.39583333333,2182.4479166666665,1.0
+2187,discontinuous,shifted,16,Ternary Haar,20163.6875,458.265625,1.0
+2187,discontinuous,shifted,16,PL estimated,2071.6666666666665,27.416666666666668,1.0
+2187,discontinuous,shifted,16,PL oracle,1204.0,16.0,1.0

@@ -1,5 +1,19 @@
 .venv/
-*__pycache__/
-runs/*
-*matrices/
-*.DS_Store*
+.venv-*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+build/
+dist/
+*.egg-info/
+runs/
+.env
+.env.*
+!.env.example
+# Local reference documents and redundant Torch source assets are not distributed.
+*.pdf
+*.pt
+ob_piecewise_linear_results/run_progress.json
+/generated_matrices/

@@ -1,0 +1,75 @@
+{
+  "config": {
+    "seed": 42,
+    "primary_n": 729,
+    "extra_n": 2187,
+    "run_extra": true,
+    "validation_sizes": [
+      27,
+      81
+    ],
+    "realizations": 64,
+    "fractions": [
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.4,
+      0.6,
+      1.0
+    ],
+    "display_fraction": 0.1,
+    "dtype": "float32",
+    "ob_device": "gpu",
+    "batch_size": 64,
+    "snr_db": [
+      0,
+      10,
+      20
+    ],
+    "noise_types": [
+      "Gaussian",
+      "Uniform"
+    ],
+    "control_atoms": 3,
+    "timing_batch_sizes": [
+      1,
+      64
+    ],
+    "timing_warmup": 3,
+    "timing_repeats": 9,
+    "max_working_memory_mib": 1024,
+    "output_dir": "ob_transform_comparison_results"
+  },
+  "environment": {
+    "platform": "macOS-27.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.15",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "mlx": "0.32.4",
+    "matplotlib": "3.11.2",
+    "ob_device": "DeviceType.gpu",
+    "dtype": "float32",
+    "baseline_backend": "SciPy/NumPy CPU, one FFT worker",
+    "hardware": {
+      "device_name": "Apple M4 Max",
+      "max_recommended_working_set_size": 30150672384,
+      "memory_size": 38654705664,
+      "architecture": "applegpu_g16s",
+      "max_buffer_length": 22613000192,
+      "resource_limit": 499000
+    }
+  },
+  "experiment_sizes": [
+    729,
+    2187
+  ],
+  "extra_memory_estimate_mib": 167.32205200195312,
+  "excluded_assets": [],
+  "excluded_methods": [],
+  "sources": {
+    "core_sha256": "9388830e3552ba005676d48e9d59ab80a5c35cd0c0ab34961c7091e0388f407d",
+    "generator_sha256": "83c196fbe7ac905fbfe65a251213cb8f01237db2e21dc1bc9f1b0bd777812562"
+  }
+}

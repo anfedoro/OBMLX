@@ -1,0 +1,4 @@
+# CSV exports use the standard csv module's CRLF record terminators.
+*.csv whitespace=cr-at-eol
+*.safetensors binary
+*.png binary

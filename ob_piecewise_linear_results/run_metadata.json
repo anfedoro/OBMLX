@@ -1,0 +1,121 @@
+{
+  "config": {
+    "seed": 42,
+    "sizes": [
+      81,
+      243,
+      729,
+      2187
+    ],
+    "affine_sizes": [
+      3,
+      9,
+      27,
+      81,
+      243,
+      729,
+      2187
+    ],
+    "segments": [
+      2,
+      3,
+      4,
+      8,
+      16
+    ],
+    "alignments": [
+      "ternary",
+      "arbitrary",
+      "shifted"
+    ],
+    "continuities": [
+      "continuous",
+      "discontinuous"
+    ],
+    "profiles": [
+      "mixed",
+      "alternating",
+      "local_short"
+    ],
+    "test_samples": 64,
+    "validation_samples": 64,
+    "dtype": "float32",
+    "ob_device": "gpu",
+    "batch_size": 64,
+    "coefficient_counts": [
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256,
+      512
+    ],
+    "coefficient_fractions": [
+      0.01,
+      0.05,
+      0.1,
+      0.2,
+      0.4,
+      0.6,
+      1.0
+    ],
+    "pl_segment_counts": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      16,
+      32
+    ],
+    "minimum_segment_length": 2,
+    "refine_iterations": 2,
+    "refine_radius": 5,
+    "boundary_radius": 2,
+    "noise_snr_db": [
+      0,
+      10,
+      20
+    ],
+    "target_relative_errors": [
+      0.01,
+      0.001
+    ],
+    "fixed_bits_per_sample": 12,
+    "affine_relative_threshold": 1e-12,
+    "timing_batch": 64,
+    "timing_warmup": 3,
+    "timing_repeats": 9,
+    "timing_min_warmup_seconds": 0.15,
+    "storage_process_repeats": 3,
+    "output_dir": "ob_piecewise_linear_results"
+  },
+  "environment": {
+    "python": "3.13.15",
+    "platform": "macOS-27.2-arm64-arm-64bit-Mach-O",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "mlx": "0.32.4",
+    "hardware": {
+      "device_name": "Apple M4 Max",
+      "max_recommended_working_set_size": 30150672384,
+      "memory_size": 38654705664,
+      "architecture": "applegpu_g16s",
+      "max_buffer_length": 22613000192,
+      "resource_limit": 499000
+    }
+  },
+  "source_hashes": {
+    "ob_transform_comparison.ipynb": "2b73ff19ab2387007d0eeae0e4242d74439c2c5e955eee5d3aa0b54cc5ab3369",
+    "obf/core.py": "9388830e3552ba005676d48e9d59ab80a5c35cd0c0ab34961c7091e0388f407d",
+    "ob.py": "83c196fbe7ac905fbfe65a251213cb8f01237db2e21dc1bc9f1b0bd777812562"
+  },
+  "configurations_per_dimension": 90,
+  "test_signals_total": 23040,
+  "validation_signals_total": 23040,
+  "selection_policy": "One candidate per dimension, SNR, known continuity and method; validation only; no test alignment/segment conditioning.",
+  "affine_threshold": 1e-12,
+  "elapsed_statistical_and_reporting_seconds": 281.28928825000185
+}

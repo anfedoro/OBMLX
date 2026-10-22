@@ -1,0 +1,5 @@
+n,float32_pair_payload_bytes,int8_pair_payload_bytes,two_bit_pair_payload_bytes,alphabet,forward_negative_two_count,inverse_zero_count,dense_scalar_products_per_forward_vector,ternary_stages
+81,52488,13122,3282,"-2.0,-1.0,0.0,1.0",2160,2160,6561,4
+243,472392,118098,29526,"-2,-1,0,1",19602,19602,59049,5
+729,4251528,1062882,265722,"-2.0,-1.0,0.0,1.0",176904,176904,531441,6
+2187,38263752,9565938,2391486,"-2.0,-1.0,0.0,1.0",1593594,1593594,4782969,7

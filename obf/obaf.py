@@ -28,7 +28,7 @@ class QubicPolyLayer(nn.Module):
 
 class QubOBAF(nn.Module):
     """
-    Cubic OBAF: Orthogonal Basis Activation Function with cubic polynomial transformation.
+    Legacy experimental OB activation module with cubic polynomial transformation.
     """
 
     def __init__(self, inp_dim, out_dim, **kwargs):

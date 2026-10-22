@@ -44,7 +44,9 @@ class OBTransform(nn.Module):
         length = x.shape[-1]
         win = self.window_size
         step = self.stride
-        self.pad = win - (length - ((length - win) // step + 1) * step)  # leave padding only min required paddings, only to keep the last window with tailing 0
+        self.pad = win - (
+            length - ((length - win) // step + 1) * step
+        )  # leave padding only min required paddings, only to keep the last window with tailing 0
         padding = [(0, 0)] * (len(x.shape) - 1) + [(0, self.pad)]  # pad only the last dimension
         x_padded = mx.pad(x, padding, mode="edge")
         self.new_length = length + self.pad
@@ -70,10 +72,10 @@ class OBTransform(nn.Module):
         x = x.reshape(-1, *tailing_dim)
         weight = mx.ones([1, win, win])
         x_fold_sum = mx.conv_transpose1d(x, weight, stride=step)
-        # 1.	Порядок каналов в input
+        # Input channel order
         # PyTorch: (batch, C_in, length)
         # MLX:     (batch, length, C_in)
-        # 	2.	Порядок осей в weight
+        # Weight axis order
         # PyTorch: (C_in, C_out, kernel)
         # MLX:     (C_out, kernel, C_in)
 
@@ -83,6 +85,7 @@ class OBTransform(nn.Module):
 
         x_restored = x_fold_sum / overlap_count
         x_restored = x_restored.reshape(*leading_dim, -1)[..., :-pad]
+
         return x_restored
 
     def fold_fast(self, x_patches):
@@ -132,7 +135,8 @@ class OBTransform(nn.Module):
             target = target[..., : -self.get_pad()]  # remove last padding
         else:
             target = target.reshape(x.shape[:-2], -1)
-        return target
+        out = target
+        return out
 
     def get_pad(self) -> int:
         return self.pad
